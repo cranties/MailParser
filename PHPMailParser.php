@@ -1,18 +1,18 @@
 <?php
 class MailParser{
 	private $Email_Sender 	 = Array("doc"=>"doc@xxxxx.com", "reg"=>"reg@xxxxx.com");
-	private $Email_Pwd 	 	 = Array("doc"=>"pwd_doc", "reg"=>"pwd_reg");
+	private $Email_Pwd 	 = Array("doc"=>"pwd_doc", "reg"=>"pwd_reg");
 	private $Email_Host 	 = "smtps.xxxxx.com";
 	private $Email_Port 	 = 465;
 	private $Mail;
 	
-	public $Sender 		 	 = "doc";
-	public $EmailTo 		 = null;
+	public $Sender 		 = "doc";
+	public $EmailTo 	 = null;
 	public $EmailTemplate 	 = null;
 	public $EmailSubject	 = null;
-	public $EmailBody		 = null;
+	public $EmailBody	 = null;
 	
-	public $EmailVar		 = Array();
+	public $EmailVar	 = Array();
 	
 	public function __construct($ss="", $sd="") {
 		$this->EmailTo = $ss;
