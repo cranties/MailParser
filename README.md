@@ -6,7 +6,7 @@ Version 0.1
 USAGE:
 
 					$test = new MailParser();
-					$test->SetMailTo($emailcli);
-					$test->SetMailTemplate("bdc_authko");
-					$test->SetVariables([$link]);
+					$test->SetMailTo("emailtome@google.com");
+					$test->SetMailTemplate("test");
+					$test->SetVariables(["https://github.com"]);
 					$test->SEND();
