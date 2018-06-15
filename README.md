@@ -1,5 +1,6 @@
 # MailParser
 PHP Mail Parser to use with PHPMailer
+Thanks to: https://github.com/PHPMailer/PHPMailer
 
 Version 0.1
 
